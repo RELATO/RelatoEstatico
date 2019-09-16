@@ -239,12 +239,22 @@ src="https://www.facebook.com/tr?id=349419012144033&ev=PageView&noscript=1"
 </li>
 <li id="menu-item-2704" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#ferramentas"><span>Ferramentas</span></a></li>
 <li id="menu-item-2715" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="index.html#Footer"><span>Contato</span></a></li>
-</ul></nav><a class="responsive-menu-toggle " href="index.html#"><i class="icon-menu-fine"></i></a>					
-				</div>			
-				
-			</div>
+</ul></nav>
+	<a class="responsive-menu-toggle" href="index.html#">
+		<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="butt" stroke-linejoin="bevel"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+	</a>
+
+	<script>
+			jQuery(document).ready(function(){
+				jQuery('.responsive-menu-toggle').click(function(){
+					// console.log('menu click');
+					jQuery('nav#menu').slideToggle();
+				});
+			});
+	</script>
 			
-						
+				</div>			
+			</div>
 		</div>
 	</div>
 </div>				<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:700" rel="stylesheet" property="stylesheet" type="text/css" media="all"><script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?rev=5.4.5.1"></script><script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?rev=5.4.5.1"></script>
@@ -921,15 +931,12 @@ que rodam em ambiente de microservice</h1>
 			<div  data-ultimate-target='#ult-modal-wrap-4390 .ult_modal-body'  data-responsive-json-new='{"font-size":"desktop:18px;","line-height":""}'  class="ult_modal-body ult-responsive ult-html" style="background:#ffffff;font-family:&#039;Open Sans Condensed&#039;;">
 			<div role="form" class="wpcf7" id="wpcf7-f2381-o1" lang="en-US" dir="ltr">
 <div class="screen-reader-response"></div>
-<form method="post" class="wpcf7-form" data-netlify="true" name="formcontato">
+<form method="post" class="wpcf7-form" data-netlify="true" data-netlify-recaptcha="true" name="formcontato">
 <div class="column one-second"><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Seu Nome" /></span></div>
 <div class="column one-second"><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Seu Email" /></span></div>
 <div class="column one"><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Assunto" /></span></div>
 <div class="column one"><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Mensagem"></textarea></span></div>
-<div>&nbsp;</div>
-<div>
-</div>
-<div>&nbsp;</div>
+<div data-netlify-recaptcha="true"></div>
 <div class="column one"><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" /></div>
 <div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
 			</div>
